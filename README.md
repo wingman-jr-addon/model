@@ -1,6 +1,8 @@
 # Model
-This is the repository holding the model backing the Wingman Jr. Addon.
+This is the repository holding the model backing the [Wingman Jr. Addon](https://github.com/wingman-jr-addon/wingman_jr).
 There are different versions of the model for different releases; see each subfolder for different releases.
+
+The current best model is SQRXR 112.
 
 # Dataset
 However, the underlying dataset format remained largely the same, but simply grew in size.
