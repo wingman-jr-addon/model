@@ -116,6 +116,9 @@ However, I do think it is may be helpful to show the ROC and DET so one can unde
 In order to find the appropriate tradeoff of false positives vs. true positives, one may wish to consult roc.txt containing the thresholds corresponding to the rates in the graph above. Additionally, a thinned out version that may be useful for deployment is present in roc.json.
 
 If unsure of what threshold to select, it may be useful to consider what Wingman Jr. initially plans to deploy with for its trusted, neutral, and untrusted zones. Here trust refers to "images are likely to be safe so prefer not triggering false positives, but catch quite a few unsafe images as well".
+
 Trusted:   FPR=0.0039473, TPR=0.6621345029239766, Threshold=0.96820706
+
 Neutral:   FPR=0.0148026, TPR=0.7705043859649123, Threshold=0.9569147
+
 Untrusted: FPR=0.0996710, TPR=0.9141447368421053, Threshold=0.2653399
