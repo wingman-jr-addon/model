@@ -108,6 +108,7 @@ function isSafe(sqrxrScore) {
 Because the dataset is not public and is constantly growing, I find it a bit unhelpful to focus on absolute accuracy as a metric that is useful for those wishing to integrate the model, as your distribution of images is likely quite different from what is being used to train the model.
 
 However, I do think it is may be helpful to show the ROC and DET so one can understand the general level of non-linearity in the steps as well as to pick appropriate cutoff points.
+
 ![ROC](post_roc.png "The ROC of SQRXR 112")
 
 ![DET](post_det.png "The DET of SQRXR 112")
