@@ -4,6 +4,8 @@ There are different versions of the model for different releases; see each subfo
 
 The current best model is SQRXR 112.
 
+Note that while the repository may not seem active, research has simply not found a model sufficiently better than SQRXR 112 as of July 2025. Please continue to report bugs, etc.
+
 # Dataset
 However, the underlying dataset format remained largely the same, but simply grew in size.
 The dataset is >100K still images. Currently no moving images have been incorporated.
