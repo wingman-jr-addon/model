@@ -1,0 +1,163 @@
+{
+  "series": "N017",
+  "selected_model": "plain_mobilenetv4",
+  "historical": {
+    "accuracy": 0.8657604078164826,
+    "confusion_true_rows_predicted_columns_SQRX": [
+      [
+        41169,
+        357,
+        697,
+        149
+      ],
+      [
+        2350,
+        2877,
+        1699,
+        136
+      ],
+      [
+        1637,
+        341,
+        10600,
+        1546
+      ],
+      [
+        579,
+        5,
+        1880,
+        18722
+      ]
+    ],
+    "count": 84744,
+    "dangerous_R_to_S_rate": 0.11590201076182384,
+    "dangerous_X_to_S_rate": 0.027329368450863777,
+    "mean_misclassification_cost": 0.1540061833286132,
+    "recall_SQRX": {
+      "Q": 0.40739167374681395,
+      "R": 0.7504956103086944,
+      "S": 0.9716086094590768,
+      "X": 0.8836967808930426
+    },
+    "unsafe_auc": 0.9827368970399856,
+    "unsafe_brier": 0.047834787517786026,
+    "unsafe_ece_20_bins": 0.008247817745154418,
+    "unsafe_operating_points": {
+      "fpr_0.004": {
+        "fpr": 0.003988482960445577,
+        "target_fpr_strictly_below": 0.004,
+        "threshold": 0.9502266049385071,
+        "tpr": 0.7720900594732371
+      },
+      "fpr_0.006": {
+        "fpr": 0.005994524686113471,
+        "target_fpr_strictly_below": 0.006,
+        "threshold": 0.9314625263214111,
+        "tpr": 0.7948409326914
+      },
+      "fpr_0.015": {
+        "fpr": 0.014986311715283678,
+        "target_fpr_strictly_below": 0.015,
+        "threshold": 0.8340016603469849,
+        "tpr": 0.8534881525535731
+      },
+      "fpr_0.1": {
+        "fpr": 0.09997167941093174,
+        "target_fpr_strictly_below": 0.1,
+        "threshold": 0.26549941301345825,
+        "tpr": 0.9537194373642972
+      },
+      "fpr_0.163": {
+        "fpr": 0.1629377891060134,
+        "target_fpr_strictly_below": 0.163,
+        "threshold": 0.1463310569524765,
+        "tpr": 0.9709005947323704
+      }
+    },
+    "unsafe_standardized_partial_auc_fpr_0_10": 0.9485755065951542
+  },
+  "directional_swimming": {
+    "argmax_occupancy_SQRX": [
+      0.9589728453364817,
+      0.0,
+      0.03541912632821724,
+      0.005608028335301062
+    ],
+    "class_mean_SQRX": [
+      0.9418624043464661,
+      0.009071885608136654,
+      0.04096328839659691,
+      0.008107705973088741
+    ],
+    "count": 484,
+    "direct_flip_rate": 0.01652892561983471,
+    "expected_severity_S0_Q1_R2_X3": {
+      "max": 2.9420063898100386,
+      "mean": 0.11532181082869411,
+      "median": 0.0019678812446467676,
+      "min": 7.322935958695147e-10,
+      "p05": 6.082515147558554e-07,
+      "p25": 0.00010814180985769488,
+      "p75": 0.02583391584578619,
+      "p95": 0.7876508153525938
+    },
+    "isolated_strong_r_source_rate": 0.014462809917355372,
+    "mean_s_plus_r_mass": 0.9828202724456787,
+    "mean_sqrx_l1_jitter": 0.023705197498202324,
+    "mean_unsafe_absolute_jitter": 0.012813160195946693,
+    "mean_within_source_transform_variance_SQRX": [
+      0.001255849259905517,
+      2.1750200176029466e-05,
+      0.0009200246422551572,
+      0.00026034348411485553
+    ],
+    "mean_within_source_transform_variance_unsafe": 0.0012300257803872228,
+    "median_source_mean_unsafe": 0.0038554328493773937,
+    "pwm_rate": 0.01652892561983471,
+    "q_view_occupancy": 0.0,
+    "s_r_probability_correlation": -0.9321580350362741,
+    "strong_r_view_occupancy": 0.031877213695395513,
+    "unsafe_distribution_all_views": {
+      "max": 0.99658203125,
+      "mean": 0.0729820653796196,
+      "median": 0.003650665283203125,
+      "min": 0.0,
+      "p05": 1.9073486328125e-06,
+      "p25": 0.00026535987854003906,
+      "p75": 0.03704833984375,
+      "p95": 0.5208740234375
+    }
+  },
+  "policy_thresholds": {
+    "trusted": {
+      "target_fpr_strictly_below": 0.004,
+      "fpr": 0.003988482960445577,
+      "tpr": 0.7720900594732371,
+      "threshold": 0.9502266049385071,
+      "tp": 32715,
+      "fp": 169,
+      "tn": 42203,
+      "fn": 9657
+    },
+    "neutral": {
+      "target_fpr_strictly_below": 0.015,
+      "fpr": 0.014986311715283678,
+      "tpr": 0.8534881525535731,
+      "threshold": 0.8340016603469849,
+      "tp": 36164,
+      "fp": 635,
+      "tn": 41737,
+      "fn": 6208
+    },
+    "untrusted": {
+      "target_fpr_strictly_below": 0.1,
+      "fpr": 0.09997167941093174,
+      "tpr": 0.9537194373642972,
+      "threshold": 0.26549941301345825,
+      "tp": 40411,
+      "fp": 4236,
+      "tn": 38136,
+      "fn": 1961
+    }
+  }
+}

@@ -2,13 +2,10 @@
 This is the repository holding the model backing the [Wingman Jr. Addon](https://github.com/wingman-jr-addon/wingman_jr).
 There are different versions of the model for different releases; see each subfolder for different releases.
 
-The current best model is SQRXR 112.
-
-Note that while the repository may not seem active, research has simply not found a model sufficiently better than SQRXR 112 as of July 2025. Please continue to report bugs, etc.
+The current best model is N017, a custom MobileNetV4 finetune.
 
 # Dataset
-However, the underlying dataset format remained largely the same, but simply grew in size.
-The dataset is >100K still images. Currently no moving images have been incorporated.
+The dataset for finetuning is >100K still images. Currently no moving images have been incorporated.
 Unlike some datasets, many of the images have been collected by intercepting images from actual browsing sessions.
 This helps keep the dataset grounded to its actual usage: browsing the internet.
 The grading scheme is by nature subjective, but generally defines four classes.

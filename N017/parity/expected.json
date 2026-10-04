@@ -1,0 +1,69 @@
+{
+  "series": "N017",
+  "selected_candidate": "Experiment 011 plain MobileNetV4 Hybrid-M",
+  "checkpoint": "best.pt (not distributed)",
+  "checkpoint_sha256": "a82bb757ddac245388b45c2b757e73413ff97604b8917823f4f1822498a341ca",
+  "onnx_sha256": "ac40b2f810f7a4bc6747ac179a2f3227e6cfc6991f6bcfb469d43329030dc14c",
+  "input_shape_nhwc": [
+    1,
+    224,
+    224,
+    3
+  ],
+  "source_input_shape_nchw": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "mean_rgb_0_1": [
+    0.48500001430511475,
+    0.4560000002384186,
+    0.4059999883174896
+  ],
+  "std_rgb_0_1": [
+    0.2290000021457672,
+    0.2240000069141388,
+    0.22499999403953552
+  ],
+  "unsafe_score": [
+    [
+      0.022035721689462662
+    ]
+  ],
+  "sqrx_probabilities": [
+    [
+      0.9891614317893982,
+      0.004295995458960533,
+      0.004273619037121534,
+      0.0022689111065119505
+    ]
+  ],
+  "onnx_nodes": 512,
+  "onnx_ops": [
+    "Add",
+    "BatchNormalization",
+    "Cast",
+    "Constant",
+    "Conv",
+    "Div",
+    "Flatten",
+    "Gemm",
+    "GlobalAveragePool",
+    "MatMul",
+    "Mul",
+    "Relu",
+    "Reshape",
+    "Shape",
+    "Sigmoid",
+    "Slice",
+    "Softmax",
+    "Sqrt",
+    "Squeeze",
+    "Transpose",
+    "Unsqueeze"
+  ],
+  "torch_version": "2.8.0+cpu",
+  "timm_version": "1.0.9",
+  "onnx_version": "1.16.0"
+}

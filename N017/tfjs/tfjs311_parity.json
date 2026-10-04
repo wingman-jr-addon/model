@@ -1,0 +1,25 @@
+{
+  "runtime": "3.11.0",
+  "backend": "cpu",
+  "inputShape": [
+    1,
+    224,
+    224,
+    3
+  ],
+  "outputShapes": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "unsafeMaxAbsError": 2.0489096641540527e-8,
+  "sqrxMaxAbsError": 6.05359673500061e-9,
+  "unsafeProbability": 0.022035742178559303,
+  "sqrxProbabilitySum": 0.9999999715946615,
+  "pass": true
+}
