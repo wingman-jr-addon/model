@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9284,
-      "sha256": "9078d958148f63bd17588621c53d311efcbd9cf568432a6999ee9cd70c1ae0f9"
+      "bytes": 10992,
+      "sha256": "5d9358a25f7a58e08a7085b480e3d1b81428cd8b98f82551188345ad6d79206f"
     },
     {
       "path": "evaluation_summary.json",
@@ -47,9 +47,19 @@
       "sha256": "8541a12f55d8720e88b02598d037e834a7577caf2b39e124fb14b71c63548ccf"
     },
     {
+      "path": "tfjs/GRAPH_FUSION.md",
+      "bytes": 1474,
+      "sha256": "d5b31d18f509df8205d9e0efb2cb79282f12387aacada4a67ca25a1f992b3b06"
+    },
+    {
+      "path": "tfjs/convert_fused_tfjs311.py",
+      "bytes": 6235,
+      "sha256": "47b6551e369dde34620aaca6ab3ea861299af1783beac25178f908cbd39b45f7"
+    },
+    {
       "path": "tfjs/n017_graph_model/conversion_summary.json",
-      "bytes": 1771,
-      "sha256": "b0dc1e8a410355cd7b58f6adef0898a73ec2c0974d2face23dc85ab3ab6ac930"
+      "bytes": 1958,
+      "sha256": "beb5272b4c6200d877eb9c0a5ac3f59eb23c31ff6a1380d10954cd63be460497"
     },
     {
       "path": "tfjs/n017_graph_model/group1-shard10of10.bin",
@@ -103,6 +113,11 @@
     },
     {
       "path": "tfjs/n017_graph_model/model.json",
+      "bytes": 231106,
+      "sha256": "4623afae676cf0afa9fe782324600623e3197eb696d826ec18199036f8ca4f31"
+    },
+    {
+      "path": "tfjs/n017_graph_model/model.unfused.json",
       "bytes": 239040,
       "sha256": "ff39b9ba41547c15b1ba4f2ab6993031086140cee38f42c15cda3df2009ea6f5"
     },

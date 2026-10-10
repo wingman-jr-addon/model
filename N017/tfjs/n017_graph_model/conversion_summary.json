@@ -56,26 +56,31 @@
       }
     }
   },
-  "node_count": 898,
-  "ops": [
-    "AddV2",
-    "BatchMatMulV2",
-    "Const",
-    "Conv2D",
-    "DepthwiseConv2dNative",
-    "Identity",
-    "MatMul",
-    "Mean",
-    "Mul",
-    "Pad",
-    "Placeholder",
-    "Relu",
-    "Reshape",
-    "Sigmoid",
-    "Softmax",
-    "Squeeze",
-    "Transpose"
-  ],
+  "node_count": 767,
+  "op_counts": {
+    "AddV2": 35,
+    "BatchMatMulV2": 16,
+    "Const": 399,
+    "Conv2D": 32,
+    "FusedDepthwiseConv2dNative": 39,
+    "Identity": 2,
+    "Mean": 1,
+    "Mul": 48,
+    "Pad": 13,
+    "Placeholder": 1,
+    "Reshape": 50,
+    "Sigmoid": 3,
+    "Softmax": 9,
+    "Squeeze": 1,
+    "Transpose": 65,
+    "_FusedConv2D": 49,
+    "_FusedMatMul": 4
+  },
+  "normalized_bias_adds": {
+    "Conv2D": 49,
+    "DepthwiseConv2dNative": 39,
+    "MatMul": 4
+  },
   "weight_shards": [
     "group1-shard1of10.bin",
     "group1-shard2of10.bin",
